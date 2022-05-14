@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body style="background-color: rgb(231, 231, 231)">
+    <h1 class="main-news">The Latest News</h1>
+    <form action="">
+      <input type="text" name="text" placeholder="Search..." /><button
+        type="submit"
+      >
+        search
+      </button>
+    </form>
+    <ul class="news-list"></ul>
+    <div class="pages">
+      <button class="back">back</button>
+      <input type="number" class="page-num" />
+      <span class="total-pages"></span>
+      <button class="fwd">forward</button>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
